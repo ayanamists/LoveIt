@@ -244,7 +244,7 @@
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = ""
+    Zhihu = "woodwardchenxi"
     Douban = "191397140"
     Angellist = ""
     Slidershare = ""
@@ -262,7 +262,7 @@
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    Bilibili = ""
+    Bilibili = "288120032"
     Discord = ""
     DiscordInvite = ""
     Lichess = ""
@@ -563,7 +563,7 @@
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = ""
@@ -581,7 +581,7 @@
       dataDomain = ""
     # Yandex Metrica
     [params.analytics.yandexMetrica]
-      id = ""
+      id = "94055655"
 
   # Cookie consent config
   # Cookie 许可配置
