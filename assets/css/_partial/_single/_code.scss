@@ -1,16 +1,17 @@
 code {
   display:inline-block;
   max-width: 100%;
-  padding: 0 .4rem;
+  padding: 0 .2rem;
+  // border: #aab1bf 1px solid;
+  // border-radius: .15rem;
   @include overflow-wrap(break-word);
   @include line-break(anywhere);
   font-size: var(--code-font-size);
   font-family: var(--code-font-family);
-  color: $code-color;
+}
 
-  [theme=dark] & {
-    color: $code-color-dark;
-  }
+pre > code {
+  border: none;
 }
 
 pre {
@@ -29,7 +30,7 @@ pre {
   }
 }
 
-code, pre, .highlight table, .highlight tr, .highlight td {
+pre > code, .highlight table, .highlight tr, .highlight td {
   background: $code-background-color !important;
 
   [theme=dark] & {

@@ -1,7 +1,7 @@
 .page {
   position: relative;
   max-width: 800px;
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
 
   [data-header-desktop] & {
@@ -13,6 +13,8 @@
   }
 
   @include blur;
+
+  font-size-adjust: 0.53;
 }
 
 @import "_single";
