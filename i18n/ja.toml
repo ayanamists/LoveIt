@@ -1,0 +1,198 @@
+# 英语的翻译
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ==
+[backToTop]
+other = "トップに戻る"
+
+[viewComments]
+other = "コメントを見る"
+# === baseof ==
+
+# === Post ===
+[posts]
+other = "投稿"
+# === Post ===
+
+# === Taxonomy ===
+[allSome]
+other = "全ての {{ .Some }}"
+
+[tag]
+other = "タグ"
+
+[tags]
+other = "タグ"
+
+[category]
+other = "カテゴリー"
+
+[categories]
+other = "カテゴリー"
+# === Taxonomy ===
+
+# === Pagination ===
+[more]
+other = "もっと見る"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "言語を選択"
+
+[switchTheme]
+other = "テーマを切り替える"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBySome]
+other = "Powered by {{ .Hugo }} | テーマ - {{ .Theme }}"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "ja"
+
+[valinePlaceholder]
+other = "あなたのコメント..."
+
+[facebookLanguageCode]
+other = "ja_JP"
+
+[giscusLang]
+other = "ja"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "検索"
+
+[searchPlaceholder]
+other = "タイトルまたは内容を検索..."
+
+[clear]
+other = "クリア"
+
+[cancel]
+other = "キャンセル"
+
+[noResultsFound]
+other = "結果が見つかりません"
+
+[lunrLanguageCode]
+other = "ja"
+
+[copyToClipboard]
+other = "クリップボードにコピー"
+
+[cookieconsentMessage]
+other = "このウェブサイトはあなたの体験を改善するためにクッキーを使用しています。"
+
+[cookieconsentDismiss]
+other = "了解！"
+
+[cookieconsentLink]
+other = "もっと知る"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "共有する"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "内容"
+
+[publishedOnDate]
+other = "{{ .Date }}に公開"
+
+[includedInCategories]
+other = "{{ .Categories }}に含まれています"
+
+[wordCount]
+one = "一語"
+other = "{{ .Count }} 語"
+
+[readingTime]
+one = "一分"
+other = "{{ .Count }} 分"
+
+[views]
+other = "ビュー"
+
+[author]
+other = "著者"
+
+[updatedOnDate]
+other = "{{ .Date }}に更新"
+
+[readMarkdown]
+other = "Markdownを読む"
+
+[back]
+other = "戻る"
+
+[home]
+other = "ホーム"
+
+[readMore]
+other = "もっと読む"
+# === posts/single.html ===
+
+# === 404.html ===
+[pageNotFound]
+other = "ページが見つかりません"
+
+[pageNotFoundText]
+other = "お探しのページは存在しません。ごめんなさい。"
+# === 404.html ===
+
+# === shortcodes/admonition.html ===
+[note]
+other = "注意"
+
+[abstract]
+other = "抽象"
+
+[info]
+other = "情報"
+
+[tip]
+other = "ヒント"
+
+[success]
+other = "成功"
+
+[question]
+other = "質問"
+
+[warning]
+other = "警告"
+
+[failure]
+other = "失敗"
+
+[danger]
+other = "危険"
+
+[bug]
+other = "バグ"
+
+[example]
+other = "例"
+
+[quote]
+other = "引用"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "新規"
+
+[changed]
+other = "変更"
+
+[deleted]
+other = "削除"
+# === shortcodes/version.html ===
