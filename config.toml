@@ -3,6 +3,7 @@
     extended = true
     min = "0.62.0"
 
+
 [params]
   # site default theme ["auto", "light", "dark"]
   # 网站默认主题 ["auto", "light", "dark"]
@@ -275,7 +276,7 @@
     RootMe= ""
     Email = "me@ayayaya.org"
     Phone = ""
-    RSS = ""
+    RSS = "true"
 
   # Page global config
   # 文章页面全局配置
@@ -400,7 +401,7 @@
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true 
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -473,9 +474,9 @@
       # utterances comment config (https://utteranc.es/)
       # utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true 
         # owner/repo
-        repo = ""
+        repo = "ayanamists/ayanamists.github.io"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
